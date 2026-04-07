@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor Data"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Accelerometer -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📱 Accelerometer"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvAccelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: 0.0  Y: 0.0  Z: 0.0"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Light Sensor -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💡 Light Sensor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light: 0.0 lx"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Proximity Sensor -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📡 Proximity Sensor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvProximity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximity: 0.0 cm"
+        android:textSize="16sp"/>
+
+</LinearLayout>
